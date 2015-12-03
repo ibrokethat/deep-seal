@@ -1,0 +1,36 @@
+{
+  "name": "@ibrokethat/deep-seal",
+  "description": "recursively seals an object",
+  "version": "0.0.0",
+  "author": "si@ibrokethat.com",
+  "contributors": [
+    {
+      "name": "Simon Jefford",
+      "email": "si@ibrokethat.com"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "latest",
+    "sinon": "latest"
+  },
+  "keywords": [
+    "ibrokethat",
+    "deep",
+    "seal",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibrokethat/deep-seal"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --colors --recursive -R spec --ui bdd ./test/**/*.test.js --NODE_ENV=test"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
